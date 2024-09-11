@@ -1,0 +1,18 @@
+Ordem de hierarquia:
+
+CLASSE E IDENTIFICAÇÃO: 
+1. id #
+2. classe .
+3. estado :
+4. atributo []
+5. total *
+
+ARQUIVOS: 
+1. inline
+2. interno
+3. externo
+4. global
+
+ESTRUTURA: 
+body{background-color: rgb()}
+
