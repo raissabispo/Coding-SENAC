@@ -1,14 +1,14 @@
 body{
     text-align: center;
-    background-color: lightblue;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color:#8EACCD;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 img{
   width: 10%;
   height: 10%;
   border-radius: 50%;
-  border-color: solid 10px aliceblue;
-
+ 
 }
 
 hr{
@@ -17,9 +17,9 @@ hr{
 }
 
 nav a{
- color: black;
+ color: #fff;
  font-size: 20px;
- font-family: Georgia, 'Times New Roman', Times, serif;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 iframe{
@@ -28,16 +28,27 @@ iframe{
    border: none;
 }
 #imgIcon{
-  height: 45px;
-  width: 45px;
+  height: 30px;
+  width: 30px;
   border-radius: none;
+
+}
+
+a{
+  color:   #dbe7ff;
+  text-decoration: none;
+
+}
+a:hover{
+  color: #fff;
 }
 
 footer{
-  font-size: 10px;
+font-size: 10px;
 }
 
 table {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-collapse: collapse;
   width: 100%;
   margin-left: 25%;
@@ -49,7 +60,7 @@ th, td {
 }
 
 tr:nth-child(even) {
-  background-color: #D6EEEE;
+  background-color: #D2E0FB;
 }
 
  

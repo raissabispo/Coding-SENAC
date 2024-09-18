@@ -16,3 +16,34 @@ ARQUIVOS:
 ESTRUTURA: 
 body{background-color: rgb()}
 
+Sites que podem ajudar: 
+
+ - My color
+ - Color Hunt
+
+TEXTOS:
+ - color
+ - direction
+ -letter-spacing
+ -line-height
+ -text-indention
+ -text-shadow
+ -font-size
+
+CLASSE ESPECIFICA:
+um elemento apenas
+
+<h1 class="minhaClasse">Hello word</h1>
+
+h1.minhaClasse{color: #fff}
+
+CLASSES GENERICAS: 
+Para todos os elementos que estão com o nome da classe:
+
+FONTES: (google fonts)
+ - Nome da familia:
+ - familias GENERICAS:
+     - Serif
+     - Sans Serif
+     -monospace
+
