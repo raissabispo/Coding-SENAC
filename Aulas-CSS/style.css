@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 body{
     text-align: center;
     background-color:#8EACCD;
     color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Quicksand", sans-serif;
   }
-img{
+
+#imgCurriculo{
   width: 10%;
   height: 10%;
   border-radius: 50%;
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.8);
  
 }
 
@@ -16,41 +20,25 @@ hr{
   
 }
 
-nav a{
+#menu a, #formacao a, #enderecoContato a{
  color: #fff;
  font-size: 20px;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
+ text-decoration: none;
+}
+
+#menu a:hover, #formacao a:hover, #enderecoContato a:hover{
+  color:   #dbe7ff;
 }
 
 iframe{
    width: 50%;
-   height: 250px;
+   height: 300px;
    border: none;
-}
-#imgIcon{
-  height: 30px;
-  width: 30px;
-  border-radius: none;
-
-}
-
-a{
-  color:   #dbe7ff;
-  text-decoration: none;
-
-}
-a:hover{
-  color: #fff;
-}
-
-footer{
-font-size: 10px;
 }
 
 table {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 50%;
   margin-left: 25%;
 }
 
@@ -60,7 +48,18 @@ th, td {
 }
 
 tr:nth-child(even) {
-  background-color: #D2E0FB;
+  background-color: hsl(220, 100%, 83%);
 }
 
  
+
+#imgIcon{
+  height: 30px;
+  width: 30px;
+  border-radius: none;
+
+}
+
+#rodape span{
+font-size: 10px;
+}
