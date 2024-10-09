@@ -11,4 +11,28 @@ Node.js - framework de tempo de execução
 
 Aula 02
 
+Orientação a objetos: (P.O.O):
 
+Visa se aproximar do mundo real, facilitar a programação
+
+        objeto: entidades
+o bolo
+possui caracteristicas e ações 
+
+tudo pode ser um objeto
+  - estados 
+  - comportamento 
+
+Entidades concretas e abstradas
+
+O objeto é uma instancia de uma classe 
+
+Agregação/Composição 
+
+MENSAGEM:
+
+um objeto interaje com outro objeto 
+
+DOM é orientação a objetos no javascript 
+
+cada tag do html é um objeto 
