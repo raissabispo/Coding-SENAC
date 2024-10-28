@@ -1,0 +1,53 @@
+Aula 01 - 28/10/24
+https://www.programiz.com/javascript
+
+O que é o node.js ?:
+
+- node.js é um famework de tempo de execução 
+- npm é um gerenciador de pacotes 
+
+Instalação:
+- instalação da extensão code runner!
+
+- Linguagem de alto nível(javascript, python) e linguagem de baixo nível(assembly, c)
+
+Variáveis e Constantes: 
+- variável é um lugar de memória
+- As variáveis não tem um tipo definido
+- camelCase
+
+- Uma constante é um valor atribuído a uma variável que não pode ser alterado(const)
+
+Criação de uma variável(let e var)
+- o let é uma variável local e mais recomendada
+- a var é uma variável global e é uma versão mais antiga
+
+Console.log:
+- saída de dados
+- console.log(nomeVariavel)
+
+%d = referenciar um inteiro
+`${nomeVariavel}` = adicionar uma variável no meio do texto(concatenar)
+
+Tipos de variável:
+
+- String: texto
+- Number: float + number 
+- Boolean: verdadeiro(1) ou falso(0) 
+- BigInt: Números inteiros grandes
+- Undefined: indefinido 
+- Null: valor vazio
+- Symbol: instâncias são únicas e imutáveis
+- Object: coleta de dados com chaves-valor {}
+
+- typeof(): verificar o tipo da variável
+
+Operadores:
+
+- Bitwise: Comparação de Bitwise
+- Aritméticos
+ incremento ou decremento posterior e anterior:
+
+- Atribuição 
+ Aritmético + atribuição 
+

@@ -36,3 +36,4 @@ um objeto interaje com outro objeto
 DOM é orientação a objetos no javascript 
 
 cada tag do html é um objeto 
+
