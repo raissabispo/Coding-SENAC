@@ -3,7 +3,7 @@ https://www.programiz.com/javascript
 
 O que é o node.js ?:
 
-- node.js é um famework de tempo de execução 
+- node.js é um framework de tempo de execução 
 - npm é um gerenciador de pacotes 
 
 Instalação:
