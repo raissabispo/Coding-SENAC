@@ -1,5 +1,5 @@
 Aula 01 - 28/10/24
-https://www.programiz.com/javascript
+https://www.programiz.com/javascript/get-started
 
 O que é o node.js ?:
 
