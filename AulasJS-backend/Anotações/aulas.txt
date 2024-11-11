@@ -51,3 +51,14 @@ Operadores:
 - Atribuição 
  Aritmético + atribuição 
 
+- If e else 
+
+- Loops(estrutura de repetição):
+  for() = uma das estruturas de repetição
+  dividido em tres partes:
+    1. inicializador(contador)
+    2. teste 
+    3. modificador 
+  A função random
+
+  - while (enquanto )
