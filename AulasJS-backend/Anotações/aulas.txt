@@ -62,3 +62,6 @@ Operadores:
   A função random
 
   - while (enquanto )
+    Quando nao sei quantas vezes irei repetir 
+
+  
