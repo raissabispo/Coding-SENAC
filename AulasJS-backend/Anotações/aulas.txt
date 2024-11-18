@@ -64,4 +64,9 @@ Operadores:
   - while (enquanto )
     Quando nao sei quantas vezes irei repetir 
 
-  
+  - funções: 
+
+   - function
+   - parametros
+
+   
