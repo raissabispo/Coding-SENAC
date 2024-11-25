@@ -1,21 +1,24 @@
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
 
-function getRandomInt(max){
-    return Math.floor(Math.random() * max);
-  
-  }
-  
-  let jogos = 5;
+let numJogos = 5;
 
-  
-  for(let j = 0 ; j < jogos ; j++){
-    let numero = getRandomInt(60) + 1 ;
-     
-  
-    if (sorteio.includes(numero)){
-       i--;
-    }else{
-      sorteio.push(numero); 
-    }
+for (let j = 0 ; j < numJogos ; j++) {
+  let numeros = [];
+
+  for (let i = 0; i < 6; i++) {
+      let numSorteado = getRandomInt(60) + 1;
+      if (numeros.includes(numSorteado)) {
+          i--;
+      } else {
+          numeros.push(numSorteado);
+      }
   }
-  
-  console.log(`Números sorteado: ${sorteio.sort()}`);
+
+  console.log(`Os números sorteados foram: ${numeros.sort()}`);
+}
+
+// numeros.forEach(element => {
+//     console.log(element)
+// });
