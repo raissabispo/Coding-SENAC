@@ -69,4 +69,19 @@ Operadores:
    - function
    - parametros
 
-   
+- Arrays 
+
+  - push = última posição
+  - unshift = primeira posição 
+  -splice = remover elemento 
+  - concat = juntar dois Arrays
+  - toString = exibir informações
+  - indexOf = indice do elemento 
+
+  - includes = se tem um elemento especifico 
+
+  - map = array de registro(qualquer tipo de dado)
+
+  JAVASCRIPT ASSINCRONO:
+  
+    -timeout = tempo de espera/saida

@@ -1,24 +1,20 @@
- function getRandomInt(max){
-   return Math.floor(Math.random() * max);
 
- }
+function getRandomInt(max){
+  return Math.floor(Math.random() * max);
 
- let sorteio = [];
- for(let i = 0 ; i < 6 ; i++){
-    let numero = getRandomInt(60) + 1 ;
-
-   while (sorteio.includes(numero)) {
-    numero = getRandomInt(60) + 1 ;
 }
-sorteio.push(numero); 
- }
+
+let sorteio = [];
+
+for(let i = 0 ; i < 6 ; i++){
+  let numero = getRandomInt(60) + 1 ;
 
 
-console.log("Números sorteados:", sorteio);
+  if (sorteio.includes(numero)){
+     i--;
+  }else{
+    sorteio.push(numero); 
+  }
+}
 
-// while 
-// guardar variavies array 
-
-// comparar com o primeiro numero 
-
-// dentro do if fazer um while 
+console.log(`Números sorteado: ${sorteio}`);
