@@ -1,0 +1,13 @@
+-O que é um framework?:
+  conjuntos de códigos para auxiliar na construção de um projeto
+  Construir uma aplicação mais facilmente
+
+-biblioteca x framework
+
+-Arquitetura MVC(moder, view, controller)
+  padrão de projeto
+  - view = front-end
+  - controller = back-end
+  - model = reflexo do banco 
+
+  
