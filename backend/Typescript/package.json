@@ -1,0 +1,28 @@
+{
+  "name": "locaDora",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev src/index.ts",
+    "start": "node build/index.js",
+    "build": "rimraf .build && tsc"
+    },
+  "keywords": [
+    "Filmes",
+    "Lazer",
+    "Gestão"
+  ],
+  "author": "Raissa",
+  "license": "ISC",
+  "description": "Projeto sala de aula",
+  "aulanodejs": "file:",
+  "locaDora": "file: ",
+  "dependencies": {
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.19.2"
+  }
+}
